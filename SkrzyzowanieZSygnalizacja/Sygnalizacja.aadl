@@ -1,0 +1,407 @@
+package Sygnalizacja
+public
+	with SEI;
+	with Data_Model;
+	
+	-- MAGISTRALA
+	bus EthernetBus
+		properties
+		  SEI::BandWidthCapacity => 1.0 GBytesps;
+		  SEI::BandWidthBudget => 50.0 MBytesps;
+		  SEI::GrossWeight => 0.5 kg;
+	end EthernetBus;
+
+	bus implementation EthernetBus.impl
+	end EthernetBus.impl;
+
+	-- PAMIĘĆ
+	memory ControlMemory
+		features
+			BA1: requires bus access EthernetBus.impl;
+		properties
+		  SEI::GrossWeight => 0.1 kg;
+	end ControlMemory;
+
+	memory implementation ControlMemory.Standard
+	end ControlMemory.Standard;
+
+	-- PROCESOR
+	processor CPU
+		features
+			eth: requires bus access EthernetBus.impl;
+		properties
+		  SEI::GrossWeight => 0.05 kg;
+		  SEI::MIPSCapacity => 8000.0 MIPS;
+		  Timing_Properties::Processor_Capacity => 1.0 MIPS;
+	end CPU;
+
+	processor implementation CPU.Impl
+		properties
+			Timing_Properties::Processor_Capacity => 1.0 MIPS;
+	end CPU.Impl;
+	
+	data VehicleDetection
+	  properties
+	    Data_Model::Data_Representation => Boolean;
+	    Data_Size => 1 Bytes;
+	end VehicleDetection;
+	
+	
+	data ProcessedSensorData
+	  properties
+	    Data_Model::Data_Representation => Struct;
+	    Data_Size => 16 Bytes;
+	end ProcessedSensorData;
+	
+	
+	device VehicleSensor
+		features
+			eth: requires bus access EthernetBus.impl;
+			detected: out data port VehicleDetection;
+		properties
+			SEI::GrossWeight => 0.15 kg;
+			Period => 20 ms;
+	end VehicleSensor;
+	
+	device implementation VehicleSensor.impl
+		properties
+			Period => 20 ms;
+	end VehicleSensor.impl;
+	
+	
+	device PedButton
+		features
+			eth: requires bus access EthernetBus.impl;
+			request: out event port;
+		properties
+  			SEI::GrossWeight => 0.2 kg;
+	end PedButton;
+		
+	-- TYP DANYCH STANU ŚWIATEŁ
+	data LightState
+	  properties
+	    Data_Model::Data_Representation => Enum;
+	    Data_Model::Enumerators => ('RED', 'YELLOW', 'GREEN');
+	    Data_Size => 2 Bytes;
+	end LightState;
+
+	
+	data PedLightState
+	  properties
+	    Data_Model::Data_Representation => Enum;
+	   	Data_Model::Enumerators => ('WALK', 'DONTWALK');
+	   	Data_Size => 1 Bytes;
+	end PedLightState;
+	
+		
+	device CarLight
+	  features
+	    lightStateIn: in data port LightState;
+	  properties
+	    Dispatch_Protocol => Sporadic;
+	    SEI::GrossWeight => 15.0kg;
+	end CarLight;
+	
+	device implementation CarLight.impl
+	end CarLight.impl;
+	
+	-- ŚWIATŁA DLA PIESZYCH
+	device PedestrianLight
+	  features
+	    pedStateIn: in data port PedLightState;
+	  properties
+	    Dispatch_Protocol => Sporadic;
+	    SEI::GrossWeight => 10.0kg;
+	end PedestrianLight;
+	
+	device implementation PedestrianLight.impl
+	end PedestrianLight.impl;
+	
+	device Buzzer
+	  features
+	    pedStateIn: in data port PedLightState;
+	  properties
+	    Dispatch_Protocol => Sporadic;
+	    SEI::GrossWeight => 0.3 kg;
+	end Buzzer;
+	
+	device implementation Buzzer.impl
+	end Buzzer.impl;
+	
+	
+	thread SensorManager
+	  features
+	    vehicleDetected1: in data port VehicleDetection;
+	    vehicleDetected2: in data port VehicleDetection;
+	    vehicleDetected3: in data port VehicleDetection;
+	    vehicleDetected4: in data port VehicleDetection;
+	
+	    pedRequest1: in event port;
+	    pedRequest2: in event port;
+	    pedRequest3: in event port;
+	    pedRequest4: in event port;
+	
+	    processedData: out data port ProcessedSensorData;
+	  properties
+	    Dispatch_Protocol => Periodic;
+	    Period => 20 ms;
+	    Compute_Execution_Time => 3 ms .. 6 ms;
+	end SensorManager;
+	
+	thread implementation SensorManager.impl
+	end SensorManager.impl;
+	
+	thread SignalManager
+	  features
+	    controlInput: in data port ProcessedSensorData; -- dane przetworzone przez SensorManager
+	
+	    carLight1: out data port LightState;
+	    carLight2: out data port LightState;
+	    carLight3: out data port LightState;
+	    carLight4: out data port LightState;
+	
+	    pedLight1: out data port PedLightState;
+	    pedLight2: out data port PedLightState;
+	    pedLight3: out data port PedLightState;
+	    pedLight4: out data port PedLightState;
+	  properties
+	    Dispatch_Protocol => Periodic;
+	    Period => 50 ms;
+	    Compute_Execution_Time => 5 ms .. 10 ms;
+	end SignalManager;
+	
+	thread implementation SignalManager.impl
+	end SignalManager.impl;
+	
+	
+	
+	process TrafficController
+	  features
+	    -- Wejścia z sensorów pojazdów
+	    vehicleDetected1: in data port VehicleDetection;
+	    vehicleDetected2: in data port VehicleDetection;
+	    vehicleDetected3: in data port VehicleDetection;
+	    vehicleDetected4: in data port VehicleDetection;
+	
+	    -- Wejścia z przycisków pieszych
+	    pedRequest1: in event port;
+	    pedRequest2: in event port;
+	    pedRequest3: in event port;
+	    pedRequest4: in event port;
+	
+	    -- Wyjścia do świateł samochodowych
+	    carLight1: out data port LightState;
+	    carLight2: out data port LightState;
+	    carLight3: out data port LightState;
+	    carLight4: out data port LightState;
+	
+	    -- Wyjścia do świateł pieszych
+	    pedLight1: out data port PedLightState;
+	    pedLight2: out data port PedLightState;
+	    pedLight3: out data port PedLightState;
+	    pedLight4: out data port PedLightState;
+	end TrafficController;
+	
+	process implementation TrafficController.impl
+	  subcomponents
+	    sensorManager: thread SensorManager.impl;
+	    signalManager: thread SignalManager.impl;
+	
+	  connections
+	    -- Łączenie wejść z sensorManagerem
+	    veh1: port vehicleDetected1 -> sensorManager.vehicleDetected1;
+	    veh2: port vehicleDetected2 -> sensorManager.vehicleDetected2;
+	    veh3: port vehicleDetected3 -> sensorManager.vehicleDetected3;
+	    veh4: port vehicleDetected4 -> sensorManager.vehicleDetected4;
+	
+	    ped1: port pedRequest1 -> sensorManager.pedRequest1;
+	    ped2: port pedRequest2 -> sensorManager.pedRequest2;
+	    ped3: port pedRequest3 -> sensorManager.pedRequest3;
+	    ped4: port pedRequest4 -> sensorManager.pedRequest4;
+	
+	    -- Połączenie między wątkami (lokalne dane przetworzone)
+	    sm_to_sig: port sensorManager.processedData -> signalManager.controlInput;
+	
+	    -- Wyjścia z signalManagera
+	    cl1: port signalManager.carLight1 -> carLight1;
+	    cl2: port signalManager.carLight2 -> carLight2;
+	    cl3: port signalManager.carLight3 -> carLight3;
+	    cl4: port signalManager.carLight4 -> carLight4;
+	
+	    pl1: port signalManager.pedLight1 -> pedLight1;
+	    pl2: port signalManager.pedLight2 -> pedLight2;
+	    pl3: port signalManager.pedLight3 -> pedLight3;
+	    pl4: port signalManager.pedLight4 -> pedLight4;
+	end TrafficController.impl;
+	
+	
+	system Skrzyzowanie
+	end Skrzyzowanie;
+	
+	system implementation Skrzyzowanie.impl
+		subcomponents
+			-- Sprzęt
+			cpu: processor CPU.Impl;
+			mem: memory ControlMemory.Standard;
+			thisBus: bus EthernetBus.impl;
+	
+			-- Urządzenia
+			sensor1: device VehicleSensor.impl;
+			sensor2: device VehicleSensor.impl;
+			sensor3: device VehicleSensor.impl;
+			sensor4: device VehicleSensor.impl;
+	
+			button1: device PedButton;
+			button2: device PedButton;
+			button3: device PedButton;
+			button4: device PedButton;
+	
+			carLight1: device CarLight.impl;
+			carLight2: device CarLight.impl;
+			carLight3: device CarLight.impl;
+			carLight4: device CarLight.impl;
+	
+			pedLight1: device PedestrianLight.impl;
+			pedLight2: device PedestrianLight.impl;
+			pedLight3: device PedestrianLight.impl;
+			pedLight4: device PedestrianLight.impl;
+			
+			buzzer1: device Buzzer.impl;
+			buzzer2: device Buzzer.impl;
+			buzzer3: device Buzzer.impl;
+			buzzer4: device Buzzer.impl;
+			
+	
+			-- Proces kontrolera
+			controller: process TrafficController.impl;
+	
+		connections
+			-- Połączenia urządzeń z procesem kontrolera
+			c1: port sensor1.detected -> controller.vehicleDetected1;
+			c2: port sensor2.detected -> controller.vehicleDetected2;
+			c3: port sensor3.detected -> controller.vehicleDetected3;
+			c4: port sensor4.detected -> controller.vehicleDetected4;
+	
+			pb1: port button1.request -> controller.pedRequest1;
+			pb2: port button2.request -> controller.pedRequest2;
+			pb3: port button3.request -> controller.pedRequest3;
+			pb4: port button4.request -> controller.pedRequest4;
+	
+			-- Wyjścia kontrolera do świateł
+			lc1: port controller.carLight1 -> carLight1.lightStateIn;
+			lc2: port controller.carLight2 -> carLight2.lightStateIn;
+			lc3: port controller.carLight3 -> carLight3.lightStateIn;
+			lc4: port controller.carLight4 -> carLight4.lightStateIn;
+	
+			lp1: port controller.pedLight1 -> pedLight1.pedStateIn;
+			lp2: port controller.pedLight2 -> pedLight2.pedStateIn;
+			lp3: port controller.pedLight3 -> pedLight3.pedStateIn;
+			lp4: port controller.pedLight4 -> pedLight4.pedStateIn;
+			
+			lpb1: port controller.pedLight1 -> buzzer1.pedStateIn;
+			lpb2: port controller.pedLight2 -> buzzer2.pedStateIn;
+			lpb3: port controller.pedLight3 -> buzzer3.pedStateIn;
+			lpb4: port controller.pedLight4 -> buzzer4.pedStateIn;
+			
+	
+			-- Połączenia z magistralą (thisBus)
+			b1: bus access thisBus -> cpu.eth;
+			b2: bus access thisBus -> mem.BA1;
+	
+			bs1: bus access thisBus -> sensor1.eth;
+			bs2: bus access thisBus -> sensor2.eth;
+			bs3: bus access thisBus -> sensor3.eth;
+			bs4: bus access thisBus -> sensor4.eth;
+	
+			bp1: bus access thisBus -> button1.eth;
+			bp2: bus access thisBus -> button2.eth;
+			bp3: bus access thisBus -> button3.eth;
+			bp4: bus access thisBus -> button4.eth;
+		
+	
+		modes
+			-- Tryb domyślny
+			default: initial mode;
+		properties
+		    -- Przypisanie magistrali do urządzeń i procesora
+		    Actual_Connection_Binding => (reference (thisBus)) applies to b1;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to b2;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bs1;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bs2;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bs3;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bs4;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bp1;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bp2;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bp3;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bp4;
+			Actual_Connection_Binding => (reference (thisBus)) applies to pb1;
+			Actual_Connection_Binding => (reference (thisBus)) applies to pb2;
+			Actual_Connection_Binding => (reference (thisBus)) applies to pb3;
+			Actual_Connection_Binding => (reference (thisBus)) applies to pb4;
+			Actual_Connection_Binding => (reference (thisBus)) applies to c1;
+			Actual_Connection_Binding => (reference (thisBus)) applies to c2;
+			Actual_Connection_Binding => (reference (thisBus)) applies to c3;
+			Actual_Connection_Binding => (reference (thisBus)) applies to c4;
+			-- CPU i pamięć (największy ruch)
+			SEI::BandWidthBudget => 2.0 KBytesps applies to b1; -- CPU do magistrali
+			SEI::BandWidthBudget => 1.0 KBytesps applies to b2; -- pamięć do magistrali
+			
+			-- Czujniki pojazdów
+			SEI::BandWidthBudget => 0.1 KBytesps applies to bs1;
+			SEI::BandWidthBudget => 0.1 KBytesps applies to bs2;
+			SEI::BandWidthBudget => 0.1 KBytesps applies to bs3;
+			SEI::BandWidthBudget => 0.1 KBytesps applies to bs4;
+			
+			-- Przyciski dla pieszych
+			SEI::BandWidthBudget => 0.01 KBytesps applies to bp1;
+			SEI::BandWidthBudget => 0.01 KBytesps applies to bp2;
+			SEI::BandWidthBudget => 0.01 KBytesps applies to bp3;
+			SEI::BandWidthBudget => 0.01 KBytesps applies to bp4;
+
+			
+			SEI::BandWidthBudget => 0.05 KBytesps applies to c1;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to c2;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to c3;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to c4;
+			
+			SEI::BandWidthBudget => 0.005 KBytesps applies to pb1;
+			SEI::BandWidthBudget => 0.005 KBytesps applies to pb2;
+			SEI::BandWidthBudget => 0.005 KBytesps applies to pb3;
+			SEI::BandWidthBudget => 0.005 KBytesps applies to pb4;
+			
+			SEI::BandWidthBudget => 0.01 KBytesps applies to lc1;
+			SEI::BandWidthBudget => 0.01 KBytesps applies to lc2;
+			SEI::BandWidthBudget => 0.01 KBytesps applies to lc3;
+			SEI::BandWidthBudget => 0.01 KBytesps applies to lc4;
+			
+			SEI::BandWidthBudget => 0.01 KBytesps applies to lp1;
+			SEI::BandWidthBudget => 0.01 KBytesps applies to lp2;
+			SEI::BandWidthBudget => 0.01 KBytesps applies to lp3;
+			SEI::BandWidthBudget => 0.01 KBytesps applies to lp4;
+			
+			SEI::BandWidthBudget => 0.01 KBytesps applies to lpb1;
+			SEI::BandWidthBudget => 0.01 KBytesps applies to lpb2;
+			SEI::BandWidthBudget => 0.01 KBytesps applies to lpb3;
+			SEI::BandWidthBudget => 0.01 KBytesps applies to lpb4;
+			
+			
+		    
+		
+		    -- Przypisanie pamięci do procesora i ewentualnie innych komponentów
+		    Actual_Memory_Binding => (reference (mem)) applies to cpu;
+		    Actual_Memory_Binding => (reference (mem)) applies to controller;
+		
+		    -- Przypisanie procesora do procesu kontrolera
+		    Actual_Processor_Binding => (reference (cpu)) applies to controller;
+		
+		    -- Opcjonalnie ograniczenie masy systemu
+		    SEI::WeightLimit => 115.0 kg;
+		    
+		    
+	end Skrzyzowanie.impl;
+
+
+
+	
+	
+end Sygnalizacja;

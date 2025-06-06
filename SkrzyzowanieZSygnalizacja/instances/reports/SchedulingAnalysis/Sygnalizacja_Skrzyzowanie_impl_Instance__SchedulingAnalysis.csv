@@ -1,0 +1,8 @@
+Test scheduability Report
+
+Processor Utilization/Scheduling Results
+cpu: Processor Skrzyzowanie_impl_Instance.cpu is schedulable with utilization 50,0%
+
+Thread binding report
+thread controller.sensorManager(2400,0 MIPS) ==> processor cpu(8000,0MIPS) Utilization 30,0%
+thread controller.signalManager(1600,0 MIPS) ==> processor cpu(8000,0MIPS) Utilization 20,0%

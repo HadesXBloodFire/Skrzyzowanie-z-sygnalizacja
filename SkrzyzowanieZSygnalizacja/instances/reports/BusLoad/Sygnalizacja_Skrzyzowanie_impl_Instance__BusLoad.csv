@@ -1,0 +1,29 @@
+Bus load analysis of Skrzyzowanie_impl_Instance
+
+
+"Analysis results in modes (default)"
+"Physical Bus","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"thisBus","1000000.0","50000.0","3.6599999999999984","0.2"
+
+"Bus thisBus has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"thisBus -> cpu.eth","","2.0","","0.0"
+"thisBus -> mem.BA1","","1.0","","0.0"
+"thisBus -> sensor1.eth","","0.1","","0.0"
+"thisBus -> sensor2.eth","","0.1","","0.0"
+"thisBus -> sensor3.eth","","0.1","","0.0"
+"thisBus -> sensor4.eth","","0.1","","0.0"
+"thisBus -> button1.eth","","0.01","","0.0"
+"thisBus -> button2.eth","","0.01","","0.0"
+"thisBus -> button3.eth","","0.01","","0.0"
+"thisBus -> button4.eth","","0.01","","0.0"
+"sensor1.detected -> controller.sensorManager.vehicleDetected1","","0.05","","0.05"
+"sensor2.detected -> controller.sensorManager.vehicleDetected2","","0.05","","0.05"
+"sensor3.detected -> controller.sensorManager.vehicleDetected3","","0.05","","0.05"
+"sensor4.detected -> controller.sensorManager.vehicleDetected4","","0.05","","0.05"
+"button1.request -> controller.sensorManager.pedRequest1","","0.005","","0.0"
+"button2.request -> controller.sensorManager.pedRequest2","","0.005","","0.0"
+"button3.request -> controller.sensorManager.pedRequest3","","0.005","","0.0"
+"button4.request -> controller.sensorManager.pedRequest4","","0.005","","0.0"
+
+

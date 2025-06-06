@@ -1,0 +1,43 @@
+Not Bound Resource Budget Analysis Report
+
+Resource Summary: In SystemMode som_1
+ in SystemMode In SystemMode som_1:   MIPS capacity 8000,000 MIPS : MIPS budget 4000,000 MIPS
+ in SystemMode In SystemMode som_1:   1 out of 1 with MIPS capacity
+ in SystemMode In SystemMode som_1:   3 out of 3 with MIPS budget
+
+
+
+Detailed Processor MIPS Capacity Report In SystemMode som_1
+
+Component,Capacity
+processor cpu, 8000,000 MIPS,
+Total, 8000,000 MIPS,
+
+
+Detailed MIPS Budget Report In SystemMode som_1
+
+Component,Budget,Actual,Notes
+device sensor1, 0,000 MIPS,0,000 MIPS,
+device sensor2, 0,000 MIPS,0,000 MIPS,
+device sensor3, 0,000 MIPS,0,000 MIPS,
+device sensor4, 0,000 MIPS,0,000 MIPS,
+device button1, 0,000 MIPS,0,000 MIPS,
+device button2, 0,000 MIPS,0,000 MIPS,
+device button3, 0,000 MIPS,0,000 MIPS,
+device button4, 0,000 MIPS,0,000 MIPS,
+device carLight1, 0,000 MIPS,0,000 MIPS,
+device carLight2, 0,000 MIPS,0,000 MIPS,
+device carLight3, 0,000 MIPS,0,000 MIPS,
+device carLight4, 0,000 MIPS,0,000 MIPS,
+device pedLight1, 0,000 MIPS,0,000 MIPS,
+device pedLight2, 0,000 MIPS,0,000 MIPS,
+device pedLight3, 0,000 MIPS,0,000 MIPS,
+device pedLight4, 0,000 MIPS,0,000 MIPS,
+device buzzer1, 0,000 MIPS,0,000 MIPS,
+device buzzer2, 0,000 MIPS,0,000 MIPS,
+device buzzer3, 0,000 MIPS,0,000 MIPS,
+device buzzer4, 0,000 MIPS,0,000 MIPS,
+  thread controller.sensorManager,   0,000 MIPS,  2400,000 MIPS,
+  thread controller.signalManager,   0,000 MIPS,  1600,000 MIPS,
+process controller, 0,000 MIPS,4000,000 MIPS,
+Total, ,4000,000 MIPS,
