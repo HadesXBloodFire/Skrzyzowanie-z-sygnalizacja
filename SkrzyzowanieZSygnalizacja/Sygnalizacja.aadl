@@ -97,6 +97,7 @@ public
 	device CarLight
 	  features
 	    lightStateIn: in data port LightState;
+	    eth: requires bus access EthernetBus.impl;
 	  properties
 	    Dispatch_Protocol => Sporadic;
 	    SEI::GrossWeight => 15.0kg;
@@ -109,6 +110,7 @@ public
 	device PedestrianLight
 	  features
 	    pedStateIn: in data port PedLightState;
+		eth: requires bus access EthernetBus.impl;
 	  properties
 	    Dispatch_Protocol => Sporadic;
 	    SEI::GrossWeight => 10.0kg;
@@ -120,6 +122,7 @@ public
 	device Buzzer
 	  features
 	    pedStateIn: in data port PedLightState;
+	    eth: requires bus access EthernetBus.impl;
 	  properties
 	    Dispatch_Protocol => Sporadic;
 	    SEI::GrossWeight => 0.3 kg;
@@ -317,6 +320,23 @@ public
 			bp2: bus access thisBus -> button2.eth;
 			bp3: bus access thisBus -> button3.eth;
 			bp4: bus access thisBus -> button4.eth;
+			
+			-- Połączenia z magistralą dla świateł i brzęczyków
+			bcl1: bus access thisBus -> carLight1.eth;
+			bcl2: bus access thisBus -> carLight2.eth;
+			bcl3: bus access thisBus -> carLight3.eth;
+			bcl4: bus access thisBus -> carLight4.eth;
+			
+			bpl1: bus access thisBus -> pedLight1.eth;
+			bpl2: bus access thisBus -> pedLight2.eth;
+			bpl3: bus access thisBus -> pedLight3.eth;
+			bpl4: bus access thisBus -> pedLight4.eth;
+			
+			bbz1: bus access thisBus -> buzzer1.eth;
+			bbz2: bus access thisBus -> buzzer2.eth;
+			bbz3: bus access thisBus -> buzzer3.eth;
+			bbz4: bus access thisBus -> buzzer4.eth;
+			
 		
 	
 		modes
@@ -342,6 +362,20 @@ public
 			Actual_Connection_Binding => (reference (thisBus)) applies to c2;
 			Actual_Connection_Binding => (reference (thisBus)) applies to c3;
 			Actual_Connection_Binding => (reference (thisBus)) applies to c4;
+			Actual_Connection_Binding => (reference (thisBus)) applies to bcl1;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bcl2;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bcl3;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bcl4;
+		
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bpl1;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bpl2;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bpl3;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bpl4;
+		
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bbz1;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bbz2;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bbz3;
+		    Actual_Connection_Binding => (reference (thisBus)) applies to bbz4;
 			-- CPU i pamięć (największy ruch)
 			SEI::BandWidthBudget => 2.0 KBytesps applies to b1; -- CPU do magistrali
 			SEI::BandWidthBudget => 1.0 KBytesps applies to b2; -- pamięć do magistrali
@@ -369,21 +403,35 @@ public
 			SEI::BandWidthBudget => 0.005 KBytesps applies to pb3;
 			SEI::BandWidthBudget => 0.005 KBytesps applies to pb4;
 			
-			SEI::BandWidthBudget => 0.01 KBytesps applies to lc1;
-			SEI::BandWidthBudget => 0.01 KBytesps applies to lc2;
-			SEI::BandWidthBudget => 0.01 KBytesps applies to lc3;
-			SEI::BandWidthBudget => 0.01 KBytesps applies to lc4;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to lc1;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to lc2;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to lc3;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to lc4;
 			
-			SEI::BandWidthBudget => 0.01 KBytesps applies to lp1;
-			SEI::BandWidthBudget => 0.01 KBytesps applies to lp2;
-			SEI::BandWidthBudget => 0.01 KBytesps applies to lp3;
-			SEI::BandWidthBudget => 0.01 KBytesps applies to lp4;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to lp1;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to lp2;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to lp3;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to lp4;
 			
-			SEI::BandWidthBudget => 0.01 KBytesps applies to lpb1;
-			SEI::BandWidthBudget => 0.01 KBytesps applies to lpb2;
-			SEI::BandWidthBudget => 0.01 KBytesps applies to lpb3;
-			SEI::BandWidthBudget => 0.01 KBytesps applies to lpb4;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to lpb1;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to lpb2;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to lpb3;
+			SEI::BandWidthBudget => 0.05 KBytesps applies to lpb4;
 			
+			SEI::BandWidthBudget => 0.05 KBytesps applies to bcl1;
+		    SEI::BandWidthBudget => 0.05 KBytesps applies to bcl2;
+		    SEI::BandWidthBudget => 0.05 KBytesps applies to bcl3;
+		    SEI::BandWidthBudget => 0.05 KBytesps applies to bcl4;
+		
+		    SEI::BandWidthBudget => 0.05 KBytesps applies to bpl1;
+		    SEI::BandWidthBudget => 0.05 KBytesps applies to bpl2;
+		    SEI::BandWidthBudget => 0.05 KBytesps applies to bpl3;
+		    SEI::BandWidthBudget => 0.05 KBytesps applies to bpl4;
+		
+		    SEI::BandWidthBudget => 0.05 KBytesps applies to bbz1;
+		    SEI::BandWidthBudget => 0.05 KBytesps applies to bbz2;
+		    SEI::BandWidthBudget => 0.05 KBytesps applies to bbz3;
+		    SEI::BandWidthBudget => 0.05 KBytesps applies to bbz4;
 			
 		    
 		

@@ -8,7 +8,7 @@
           <unit href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#/0/@ownedPropertyType.0/@ownedLiteral.0"/>
         </ownedValue>
       </ownedValue>
-      <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.51"/>
+      <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.75"/>
     </ownedPropertyAssociation>
     <componentInstance name="thisBus" category="bus">
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
@@ -361,6 +361,9 @@
         </ownedPropertyAssociation>
         <feature xsi:type="aadl2:DataPort" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedDataPort.0"/>
       </featureInstance>
+      <featureInstance name="eth" category="busAccess" type="/2">
+        <feature xsi:type="aadl2:BusAccess" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedBusAccess.0"/>
+      </featureInstance>
       <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedDeviceSubcomponent.8"/>
       <index>0</index>
       <classifier xsi:type="aadl2:DeviceImplementation" href="../Sygnalizacja.aadl#Sygnalizacja.CarLight.impl"/>
@@ -415,6 +418,9 @@
           <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.11/@ownedPropertyAssociation.1"/>
         </ownedPropertyAssociation>
         <feature xsi:type="aadl2:DataPort" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance name="eth" category="busAccess" type="/2">
+        <feature xsi:type="aadl2:BusAccess" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedBusAccess.0"/>
       </featureInstance>
       <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedDeviceSubcomponent.9"/>
       <index>0</index>
@@ -471,6 +477,9 @@
         </ownedPropertyAssociation>
         <feature xsi:type="aadl2:DataPort" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedDataPort.0"/>
       </featureInstance>
+      <featureInstance name="eth" category="busAccess" type="/2">
+        <feature xsi:type="aadl2:BusAccess" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedBusAccess.0"/>
+      </featureInstance>
       <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedDeviceSubcomponent.10"/>
       <index>0</index>
       <classifier xsi:type="aadl2:DeviceImplementation" href="../Sygnalizacja.aadl#Sygnalizacja.CarLight.impl"/>
@@ -526,6 +535,9 @@
         </ownedPropertyAssociation>
         <feature xsi:type="aadl2:DataPort" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedDataPort.0"/>
       </featureInstance>
+      <featureInstance name="eth" category="busAccess" type="/2">
+        <feature xsi:type="aadl2:BusAccess" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedBusAccess.0"/>
+      </featureInstance>
       <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedDeviceSubcomponent.11"/>
       <index>0</index>
       <classifier xsi:type="aadl2:DeviceImplementation" href="../Sygnalizacja.aadl#Sygnalizacja.CarLight.impl"/>
@@ -579,6 +591,9 @@
           <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedPropertyAssociation.1"/>
         </ownedPropertyAssociation>
         <feature xsi:type="aadl2:DataPort" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance name="eth" category="busAccess" type="/2">
+        <feature xsi:type="aadl2:BusAccess" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedBusAccess.0"/>
       </featureInstance>
       <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedDeviceSubcomponent.12"/>
       <index>0</index>
@@ -634,6 +649,9 @@
         </ownedPropertyAssociation>
         <feature xsi:type="aadl2:DataPort" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedDataPort.0"/>
       </featureInstance>
+      <featureInstance name="eth" category="busAccess" type="/2">
+        <feature xsi:type="aadl2:BusAccess" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedBusAccess.0"/>
+      </featureInstance>
       <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedDeviceSubcomponent.13"/>
       <index>0</index>
       <classifier xsi:type="aadl2:DeviceImplementation" href="../Sygnalizacja.aadl#Sygnalizacja.PedestrianLight.impl"/>
@@ -687,6 +705,9 @@
           <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedPropertyAssociation.1"/>
         </ownedPropertyAssociation>
         <feature xsi:type="aadl2:DataPort" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance name="eth" category="busAccess" type="/2">
+        <feature xsi:type="aadl2:BusAccess" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedBusAccess.0"/>
       </featureInstance>
       <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedDeviceSubcomponent.14"/>
       <index>0</index>
@@ -742,6 +763,9 @@
         </ownedPropertyAssociation>
         <feature xsi:type="aadl2:DataPort" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedDataPort.0"/>
       </featureInstance>
+      <featureInstance name="eth" category="busAccess" type="/2">
+        <feature xsi:type="aadl2:BusAccess" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.15/@ownedBusAccess.0"/>
+      </featureInstance>
       <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedDeviceSubcomponent.15"/>
       <index>0</index>
       <classifier xsi:type="aadl2:DeviceImplementation" href="../Sygnalizacja.aadl#Sygnalizacja.PedestrianLight.impl"/>
@@ -795,6 +819,9 @@
           <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedPropertyAssociation.1"/>
         </ownedPropertyAssociation>
         <feature xsi:type="aadl2:DataPort" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance name="eth" category="busAccess" type="/2">
+        <feature xsi:type="aadl2:BusAccess" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedBusAccess.0"/>
       </featureInstance>
       <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedDeviceSubcomponent.16"/>
       <index>0</index>
@@ -850,6 +877,9 @@
         </ownedPropertyAssociation>
         <feature xsi:type="aadl2:DataPort" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDataPort.0"/>
       </featureInstance>
+      <featureInstance name="eth" category="busAccess" type="/2">
+        <feature xsi:type="aadl2:BusAccess" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedBusAccess.0"/>
+      </featureInstance>
       <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedDeviceSubcomponent.17"/>
       <index>0</index>
       <classifier xsi:type="aadl2:DeviceImplementation" href="../Sygnalizacja.aadl#Sygnalizacja.Buzzer.impl"/>
@@ -903,6 +933,9 @@
           <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedPropertyAssociation.1"/>
         </ownedPropertyAssociation>
         <feature xsi:type="aadl2:DataPort" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance name="eth" category="busAccess" type="/2">
+        <feature xsi:type="aadl2:BusAccess" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedBusAccess.0"/>
       </featureInstance>
       <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedDeviceSubcomponent.18"/>
       <index>0</index>
@@ -958,6 +991,9 @@
         </ownedPropertyAssociation>
         <feature xsi:type="aadl2:DataPort" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDataPort.0"/>
       </featureInstance>
+      <featureInstance name="eth" category="busAccess" type="/2">
+        <feature xsi:type="aadl2:BusAccess" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedBusAccess.0"/>
+      </featureInstance>
       <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedDeviceSubcomponent.19"/>
       <index>0</index>
       <classifier xsi:type="aadl2:DeviceImplementation" href="../Sygnalizacja.aadl#Sygnalizacja.Buzzer.impl"/>
@@ -987,7 +1023,7 @@
             <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
       </ownedPropertyAssociation>
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Processor_Binding"/>
@@ -996,7 +1032,7 @@
             <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.23"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.50"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.74"/>
       </ownedPropertyAssociation>
       <featureInstance name="vehicleDetected1" type="/1">
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
@@ -1006,7 +1042,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1036,7 +1072,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1066,7 +1102,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1096,7 +1132,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1126,7 +1162,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1167,7 +1203,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1208,7 +1244,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1249,7 +1285,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1290,7 +1326,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1330,7 +1366,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1370,7 +1406,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1410,7 +1446,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1462,7 +1498,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Processor_Binding"/>
@@ -1471,7 +1507,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.23"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.50"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.74"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Timing_Properties.aadl#Timing_Properties.Period"/>
@@ -1513,7 +1549,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1543,7 +1579,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1573,7 +1609,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1603,7 +1639,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1633,7 +1669,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1679,7 +1715,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Processor_Binding"/>
@@ -1688,7 +1724,7 @@
               <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.23"/>
             </ownedValue>
           </ownedValue>
-          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.50"/>
+          <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.74"/>
         </ownedPropertyAssociation>
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Timing_Properties.aadl#Timing_Properties.Period"/>
@@ -1730,7 +1766,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1760,7 +1796,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1801,7 +1837,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1842,7 +1878,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1883,7 +1919,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1924,7 +1960,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -1964,7 +2000,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -2004,7 +2040,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -2044,7 +2080,7 @@
                 <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
               </ownedValue>
             </ownedValue>
-            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
+            <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.73"/>
           </ownedPropertyAssociation>
           <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
             <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -2097,7 +2133,7 @@
             <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.21"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.48"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.72"/>
       </ownedPropertyAssociation>
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.GrossWeight"/>
@@ -2153,7 +2189,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.18"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.30"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.23/@featureInstance.0">
         <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.0"/>
@@ -2176,7 +2212,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.19"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.31"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.21/@featureInstance.0">
         <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.1"/>
@@ -2199,7 +2235,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.20"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.32"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.1/@featureInstance.1">
         <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.2"/>
@@ -2222,7 +2258,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.21"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.33"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.2/@featureInstance.1">
         <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.3"/>
@@ -2245,7 +2281,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.22"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.34"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.3/@featureInstance.1">
         <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.4"/>
@@ -2268,7 +2304,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.23"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.35"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.4/@featureInstance.1">
         <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.5"/>
@@ -2291,7 +2327,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.24"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.36"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.5/@featureInstance.1">
         <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.6"/>
@@ -2314,7 +2350,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.25"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.37"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.6/@featureInstance.1">
         <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.7"/>
@@ -2337,7 +2373,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.26"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.38"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.7/@featureInstance.1">
         <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.8"/>
@@ -2360,10 +2396,286 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.27"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.39"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.8/@featureInstance.1">
         <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.9"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="thisBus -> carLight1.eth" complete="true" kind="accessConnection" destination="/0/@componentInstance.9/@featureInstance.1" source="/0/@componentInstance.0">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.18"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.60"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.9/@featureInstance.1">
+        <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.10"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="thisBus -> carLight2.eth" complete="true" kind="accessConnection" destination="/0/@componentInstance.10/@featureInstance.1" source="/0/@componentInstance.0">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.19"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.61"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.10/@featureInstance.1">
+        <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.11"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="thisBus -> carLight3.eth" complete="true" kind="accessConnection" destination="/0/@componentInstance.11/@featureInstance.1" source="/0/@componentInstance.0">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.20"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.62"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.11/@featureInstance.1">
+        <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.12"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="thisBus -> carLight4.eth" complete="true" kind="accessConnection" destination="/0/@componentInstance.12/@featureInstance.1" source="/0/@componentInstance.0">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.21"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.63"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.12/@featureInstance.1">
+        <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.13"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="thisBus -> pedLight1.eth" complete="true" kind="accessConnection" destination="/0/@componentInstance.13/@featureInstance.1" source="/0/@componentInstance.0">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.22"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.64"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.13/@featureInstance.1">
+        <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.14"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="thisBus -> pedLight2.eth" complete="true" kind="accessConnection" destination="/0/@componentInstance.14/@featureInstance.1" source="/0/@componentInstance.0">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.23"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.65"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.14/@featureInstance.1">
+        <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.15"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="thisBus -> pedLight3.eth" complete="true" kind="accessConnection" destination="/0/@componentInstance.15/@featureInstance.1" source="/0/@componentInstance.0">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.24"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.66"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.15/@featureInstance.1">
+        <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.16"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="thisBus -> pedLight4.eth" complete="true" kind="accessConnection" destination="/0/@componentInstance.16/@featureInstance.1" source="/0/@componentInstance.0">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.25"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.67"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.16/@featureInstance.1">
+        <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.17"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="thisBus -> buzzer1.eth" complete="true" kind="accessConnection" destination="/0/@componentInstance.17/@featureInstance.1" source="/0/@componentInstance.0">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.26"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.68"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.17/@featureInstance.1">
+        <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.18"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="thisBus -> buzzer2.eth" complete="true" kind="accessConnection" destination="/0/@componentInstance.18/@featureInstance.1" source="/0/@componentInstance.0">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.27"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.69"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.18/@featureInstance.1">
+        <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.19"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="thisBus -> buzzer3.eth" complete="true" kind="accessConnection" destination="/0/@componentInstance.19/@featureInstance.1" source="/0/@componentInstance.0">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.28"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.70"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.19/@featureInstance.1">
+        <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.20"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="thisBus -> buzzer4.eth" complete="true" kind="accessConnection" destination="/0/@componentInstance.20/@featureInstance.1" source="/0/@componentInstance.0">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.29"/>
+      </ownedPropertyAssociation>
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.71"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.20/@featureInstance.1">
+        <connection xsi:type="aadl2:AccessConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedAccessConnection.21"/>
       </connectionReference>
     </connectionInstance>
     <connectionInstance name="sensor1.detected -> controller.sensorManager.vehicleDetected1" complete="true" kind="portConnection" destination="/0/@componentInstance.22/@componentInstance.0/@featureInstance.0" source="/0/@componentInstance.1/@featureInstance.0">
@@ -2383,7 +2695,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.28"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.40"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.1/@featureInstance.0" destination="/0/@componentInstance.22/@featureInstance.0">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPortConnection.0"/>
@@ -2409,7 +2721,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.29"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.41"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.2/@featureInstance.0" destination="/0/@componentInstance.22/@featureInstance.1">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPortConnection.1"/>
@@ -2435,7 +2747,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.30"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.42"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.3/@featureInstance.0" destination="/0/@componentInstance.22/@featureInstance.2">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPortConnection.2"/>
@@ -2461,7 +2773,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.31"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.43"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.4/@featureInstance.0" destination="/0/@componentInstance.22/@featureInstance.3">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPortConnection.3"/>
@@ -2487,7 +2799,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.32"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.44"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.5/@featureInstance.0" destination="/0/@componentInstance.22/@featureInstance.12">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPortConnection.4"/>
@@ -2513,7 +2825,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.33"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.45"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.6/@featureInstance.0" destination="/0/@componentInstance.22/@featureInstance.13">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPortConnection.5"/>
@@ -2539,7 +2851,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.34"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.46"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.7/@featureInstance.0" destination="/0/@componentInstance.22/@featureInstance.14">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPortConnection.6"/>
@@ -2565,7 +2877,7 @@
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.35"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.47"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0" source="/0/@componentInstance.8/@featureInstance.0" destination="/0/@componentInstance.22/@featureInstance.15">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPortConnection.7"/>
@@ -2578,11 +2890,11 @@
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
         <ownedValue>
-          <ownedValue xsi:type="aadl2:RealLiteral" value="0.01">
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.36"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.48"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0/@componentInstance.22" source="/0/@componentInstance.22/@componentInstance.1/@featureInstance.1" destination="/0/@componentInstance.22/@featureInstance.4">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPortConnection.9"/>
@@ -2595,11 +2907,11 @@
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
         <ownedValue>
-          <ownedValue xsi:type="aadl2:RealLiteral" value="0.01">
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.37"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.49"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0/@componentInstance.22" source="/0/@componentInstance.22/@componentInstance.1/@featureInstance.2" destination="/0/@componentInstance.22/@featureInstance.5">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPortConnection.10"/>
@@ -2612,11 +2924,11 @@
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
         <ownedValue>
-          <ownedValue xsi:type="aadl2:RealLiteral" value="0.01">
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.38"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.50"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0/@componentInstance.22" source="/0/@componentInstance.22/@componentInstance.1/@featureInstance.3" destination="/0/@componentInstance.22/@featureInstance.6">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPortConnection.11"/>
@@ -2629,11 +2941,11 @@
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
         <ownedValue>
-          <ownedValue xsi:type="aadl2:RealLiteral" value="0.01">
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.39"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.51"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0/@componentInstance.22" source="/0/@componentInstance.22/@componentInstance.1/@featureInstance.4" destination="/0/@componentInstance.22/@featureInstance.7">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPortConnection.12"/>
@@ -2646,11 +2958,11 @@
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
         <ownedValue>
-          <ownedValue xsi:type="aadl2:RealLiteral" value="0.01">
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.40"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.52"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0/@componentInstance.22" source="/0/@componentInstance.22/@componentInstance.1/@featureInstance.5" destination="/0/@componentInstance.22/@featureInstance.8">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPortConnection.13"/>
@@ -2663,11 +2975,11 @@
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
         <ownedValue>
-          <ownedValue xsi:type="aadl2:RealLiteral" value="0.01">
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.44"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.56"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0/@componentInstance.22" source="/0/@componentInstance.22/@componentInstance.1/@featureInstance.5" destination="/0/@componentInstance.22/@featureInstance.8">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPortConnection.13"/>
@@ -2680,11 +2992,11 @@
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
         <ownedValue>
-          <ownedValue xsi:type="aadl2:RealLiteral" value="0.01">
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.41"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.53"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0/@componentInstance.22" source="/0/@componentInstance.22/@componentInstance.1/@featureInstance.6" destination="/0/@componentInstance.22/@featureInstance.9">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPortConnection.14"/>
@@ -2697,11 +3009,11 @@
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
         <ownedValue>
-          <ownedValue xsi:type="aadl2:RealLiteral" value="0.01">
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.45"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.57"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0/@componentInstance.22" source="/0/@componentInstance.22/@componentInstance.1/@featureInstance.6" destination="/0/@componentInstance.22/@featureInstance.9">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPortConnection.14"/>
@@ -2714,11 +3026,11 @@
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
         <ownedValue>
-          <ownedValue xsi:type="aadl2:RealLiteral" value="0.01">
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.42"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.54"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0/@componentInstance.22" source="/0/@componentInstance.22/@componentInstance.1/@featureInstance.7" destination="/0/@componentInstance.22/@featureInstance.10">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPortConnection.15"/>
@@ -2731,11 +3043,11 @@
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
         <ownedValue>
-          <ownedValue xsi:type="aadl2:RealLiteral" value="0.01">
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.46"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.58"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0/@componentInstance.22" source="/0/@componentInstance.22/@componentInstance.1/@featureInstance.7" destination="/0/@componentInstance.22/@featureInstance.10">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPortConnection.15"/>
@@ -2748,11 +3060,11 @@
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
         <ownedValue>
-          <ownedValue xsi:type="aadl2:RealLiteral" value="0.01">
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.43"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.55"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0/@componentInstance.22" source="/0/@componentInstance.22/@componentInstance.1/@featureInstance.8" destination="/0/@componentInstance.22/@featureInstance.11">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPortConnection.16"/>
@@ -2765,11 +3077,11 @@
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthBudget"/>
         <ownedValue>
-          <ownedValue xsi:type="aadl2:RealLiteral" value="0.01">
+          <ownedValue xsi:type="aadl2:RealLiteral" value="0.05">
             <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.5"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.47"/>
+        <propertyAssociation href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.26/@ownedPropertyAssociation.59"/>
       </ownedPropertyAssociation>
       <connectionReference context="/0/@componentInstance.22" source="/0/@componentInstance.22/@componentInstance.1/@featureInstance.8" destination="/0/@componentInstance.22/@featureInstance.11">
         <connection xsi:type="aadl2:PortConnection" href="../Sygnalizacja.aadl#/0/@ownedPublicSection/@ownedClassifier.24/@ownedPortConnection.16"/>

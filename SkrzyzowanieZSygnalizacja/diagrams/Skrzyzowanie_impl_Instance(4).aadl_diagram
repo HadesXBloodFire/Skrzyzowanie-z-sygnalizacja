@@ -16,15 +16,15 @@
           <seg>feature_instance</seg>
           <seg>request</seg>
         </bo>
-        <position x="152.9583282470703" y="10.0"/>
+        <position x="152.52734756469727" y="10.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>component_instance</seg>
         <seg>button1</seg>
       </bo>
-      <position x="140.0000000000001" y="440.0"/>
-      <size width="209.43098068237305" height="60.0"/>
+      <position x="140.0" y="620.0"/>
+      <size width="209.0" height="60.0"/>
     </element>
     <element uuid="2cdf8358-cb57-4836-aad0-2b2f0805bdf2" manual="true">
       <element uuid="487e796f-22e2-4edf-bdf6-b7d22954d51a" manual="true" dockArea="left">
@@ -41,15 +41,15 @@
           <seg>feature_instance</seg>
           <seg>request</seg>
         </bo>
-        <position x="152.9583282470703" y="12.0"/>
+        <position x="152.52734756469727" y="12.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>component_instance</seg>
         <seg>button2</seg>
       </bo>
-      <position x="140.0000000000001" y="370.0"/>
-      <size width="209.43098068237305" height="60.0"/>
+      <position x="140.0" y="550.0"/>
+      <size width="209.0" height="60.0"/>
     </element>
     <element uuid="3f0be8fa-0661-46b0-95ca-d0cc87cdae29" manual="true">
       <element uuid="79351b2f-2fd6-44e6-8e36-aa8c448fab9d" manual="true" dockArea="left">
@@ -66,15 +66,15 @@
           <seg>feature_instance</seg>
           <seg>request</seg>
         </bo>
-        <position x="152.9583282470703" y="10.0"/>
+        <position x="152.52734756469727" y="10.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>component_instance</seg>
         <seg>button3</seg>
       </bo>
-      <position x="140.0000000000001" y="300.0"/>
-      <size width="209.43098068237305" height="60.0"/>
+      <position x="140.0" y="480.0"/>
+      <size width="209.0" height="60.0"/>
     </element>
     <element uuid="f67a2b66-cdcc-4498-8e10-1e68dd85e7b4" manual="true">
       <element uuid="3df2e54c-30d5-4748-900f-0629b6744d1c" manual="true" dockArea="left">
@@ -91,17 +91,25 @@
           <seg>feature_instance</seg>
           <seg>request</seg>
         </bo>
-        <position x="152.9583282470703" y="10.0"/>
+        <position x="152.52734756469727" y="10.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>component_instance</seg>
         <seg>button4</seg>
       </bo>
-      <position x="140.0000000000001" y="230.0"/>
-      <size width="209.43098068237305" height="60.0"/>
+      <position x="140.0" y="410.0"/>
+      <size width="209.0" height="60.0"/>
     </element>
     <element uuid="7deeec42-f902-4dff-bba7-de84cf2a949e" manual="true">
+      <element uuid="b1851de1-5400-48b2-b2b9-d9025ebc26bd" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="221.46484375" y="30.0"/>
+      </element>
       <element uuid="f6f1fdb8-f8c7-4059-9f85-7eed96384448" manual="true" dockArea="left">
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
@@ -115,10 +123,18 @@
         <seg>component_instance</seg>
         <seg>buzzer1</seg>
       </bo>
-      <position x="2040.0" y="270.0"/>
-      <size width="252.4322853088379" height="60.0"/>
+      <position x="2040.0" y="490.0"/>
+      <size width="252.0" height="95.0"/>
     </element>
     <element uuid="a3d1cd62-6870-4df1-82fa-c65cb8481c43" manual="true">
+      <element uuid="8678111a-b8f1-41f0-b1ce-697b05e8fe6d" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="221.46484375" y="30.0"/>
+      </element>
       <element uuid="3ea7df9e-ff56-4029-82d8-985bd5656904" manual="true" dockArea="left">
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
@@ -132,10 +148,18 @@
         <seg>component_instance</seg>
         <seg>buzzer2</seg>
       </bo>
-      <position x="2040.0" y="190.0"/>
-      <size width="252.4322853088379" height="60.0"/>
+      <position x="2040.0" y="390.0"/>
+      <size width="252.0" height="95.0"/>
     </element>
     <element uuid="ab5ca512-bc19-4db4-9df7-facc1c6c7cb9" manual="true">
+      <element uuid="14b1fa78-a86a-4444-98d0-f221e9139b75" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="221.46484375" y="30.0"/>
+      </element>
       <element uuid="4180c62a-0306-40ee-bbbf-400c3dad701c" manual="true" dockArea="left">
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
@@ -149,10 +173,18 @@
         <seg>component_instance</seg>
         <seg>buzzer3</seg>
       </bo>
-      <position x="2040.0" y="110.0"/>
-      <size width="252.4322853088379" height="60.0"/>
+      <position x="2040.0" y="290.0"/>
+      <size width="252.0" height="95.0"/>
     </element>
     <element uuid="7d6596aa-a7e5-4792-be83-6df180731c82" manual="true">
+      <element uuid="978b07d9-2bf6-4d0e-8b7d-3ae089b19f99" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="221.46484375" y="40.0"/>
+      </element>
       <element uuid="23fc86d2-e1d5-4f7d-a1b1-d9b480e23973" manual="true" dockArea="left">
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
@@ -166,10 +198,18 @@
         <seg>component_instance</seg>
         <seg>buzzer4</seg>
       </bo>
-      <position x="2040.0" y="30.0"/>
-      <size width="252.4322853088379" height="60.0"/>
+      <position x="2040.0" y="190.0"/>
+      <size width="252.0" height="95.0"/>
     </element>
     <element uuid="19814c05-6668-4d08-aa9f-f16ac0ceeaf2" manual="true">
+      <element uuid="a49b9c38-1e63-4d31-9078-8696ff8639a4" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="233.46484375" y="30.0"/>
+      </element>
       <element uuid="abb22839-a939-4177-b1cb-5f7a6e50bed5" manual="true" dockArea="left">
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
@@ -183,10 +223,18 @@
         <seg>component_instance</seg>
         <seg>carLight1</seg>
       </bo>
-      <position x="2020.0" y="1180.0"/>
-      <size width="264.2747268676758" height="60.0"/>
+      <position x="2020.0" y="1400.0"/>
+      <size width="264.0" height="95.0"/>
     </element>
     <element uuid="365c97ee-4b74-4665-8c3a-e543c6209f7a" manual="true">
+      <element uuid="4a69f4e4-b7d4-4c80-a5fc-7e29ccb6473f" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="233.46484375" y="30.0"/>
+      </element>
       <element uuid="3b851e14-c210-4092-b5fc-edaaf000dad6" manual="true" dockArea="left">
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
@@ -200,10 +248,18 @@
         <seg>component_instance</seg>
         <seg>carLight2</seg>
       </bo>
-      <position x="2020.0" y="1090.0"/>
-      <size width="264.2747268676758" height="60.0"/>
+      <position x="2020.0" y="1290.0"/>
+      <size width="264.0" height="95.0"/>
     </element>
     <element uuid="35b2b5c0-dfd5-463c-8f6a-7cfb30f40c00" manual="true">
+      <element uuid="05bd1d2f-7a33-46f2-ad8a-76a15e4f1e0a" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="233.46484375" y="30.0"/>
+      </element>
       <element uuid="f5671923-1d58-4131-a512-14a125d92b42" manual="true" dockArea="left">
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
@@ -217,10 +273,18 @@
         <seg>component_instance</seg>
         <seg>carLight3</seg>
       </bo>
-      <position x="2020.0" y="1000.0"/>
-      <size width="264.2747268676758" height="60.0"/>
+      <position x="2020.0" y="1180.0"/>
+      <size width="264.0" height="95.0"/>
     </element>
     <element uuid="2c69ee73-eb6c-4a01-a1ba-50e2eb14c4a9" manual="true">
+      <element uuid="a8a6150d-25a5-4b26-a62d-8ebfca085029" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="233.46484375" y="29.999999999999886"/>
+      </element>
       <element uuid="6e4f10a3-b202-4c8b-9062-db000a1f8b77" manual="true" dockArea="left">
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
@@ -234,8 +298,8 @@
         <seg>component_instance</seg>
         <seg>carLight4</seg>
       </bo>
-      <position x="2020.0" y="910.0"/>
-      <size width="264.2747268676758" height="60.0"/>
+      <position x="2020.0" y="1070.0"/>
+      <size width="264.0" height="95.0"/>
     </element>
     <element uuid="b11c7735-7bad-4ef9-bf19-a4acf50cf1bf" manual="true">
       <element uuid="d0204bfa-af4f-4542-9370-b077e84fae90" manual="true">
@@ -277,7 +341,7 @@
             <seg>feature_instance</seg>
             <seg>processedData</seg>
           </bo>
-          <position x="271.53255462646484" y="20.000000000000114"/>
+          <position x="271.31900787353516" y="20.0"/>
         </element>
         <element uuid="889c8fb4-492a-4f5e-86c7-8d64c7fc3ffa" manual="true" dockArea="left">
           <bo>
@@ -316,8 +380,8 @@
           <seg>component_instance</seg>
           <seg>sensorManager</seg>
         </bo>
-        <position x="210.0000000000001" y="232.00000000000003"/>
-        <size width="373.2135467529297" height="465.0"/>
+        <position x="210.0" y="232.0"/>
+        <size width="373.0" height="465.0"/>
       </element>
       <element uuid="d26ca7fa-c255-4f5f-ac94-35daefe2baf9" manual="true">
         <element uuid="6c338ac8-995c-4e34-8575-c87edbe95e40" manual="true" dockArea="right">
@@ -326,7 +390,7 @@
             <seg>feature_instance</seg>
             <seg>carLight1</seg>
           </bo>
-          <position x="235.95962524414074" y="385.0000000000001"/>
+          <position x="236.14974212646484" y="385.0"/>
         </element>
         <element uuid="46e64b40-b7c5-404c-8bfe-14302b66d1e8" manual="true" dockArea="right">
           <bo>
@@ -334,7 +398,7 @@
             <seg>feature_instance</seg>
             <seg>carLight2</seg>
           </bo>
-          <position x="235.95962524414074" y="340.0000000000001"/>
+          <position x="236.14974212646484" y="340.0"/>
         </element>
         <element uuid="7a3c2134-8273-4f26-8085-9caff37898bb" manual="true" dockArea="right">
           <bo>
@@ -342,7 +406,7 @@
             <seg>feature_instance</seg>
             <seg>carLight3</seg>
           </bo>
-          <position x="235.95962524414074" y="295.0000000000001"/>
+          <position x="236.14974212646484" y="295.0"/>
         </element>
         <element uuid="c27708d2-a68b-46b3-9754-08042c0148fb" manual="true" dockArea="right">
           <bo>
@@ -350,7 +414,7 @@
             <seg>feature_instance</seg>
             <seg>carLight4</seg>
           </bo>
-          <position x="235.95962524414074" y="250.0000000000001"/>
+          <position x="236.14974212646484" y="250.0"/>
         </element>
         <element uuid="40a60987-d162-4978-bbd7-783d7ddf4448" manual="true" dockArea="left">
           <bo>
@@ -358,7 +422,7 @@
             <seg>feature_instance</seg>
             <seg>controlInput</seg>
           </bo>
-          <position y="20.00000000000003"/>
+          <position y="20.0"/>
         </element>
         <element uuid="387bb4f5-3901-48fe-ab10-90dc6a6cdd91" manual="true" dockArea="right">
           <bo>
@@ -366,7 +430,7 @@
             <seg>feature_instance</seg>
             <seg>pedLight1</seg>
           </bo>
-          <position x="232.23567199707043" y="145.0"/>
+          <position x="232.42578887939453" y="145.0"/>
         </element>
         <element uuid="c4d7c30f-228e-4cc2-91cb-413cd5fec313" manual="true" dockArea="right">
           <bo>
@@ -374,7 +438,7 @@
             <seg>feature_instance</seg>
             <seg>pedLight2</seg>
           </bo>
-          <position x="232.23567199707043" y="100.0"/>
+          <position x="232.42578887939453" y="100.0"/>
         </element>
         <element uuid="a9a63f60-9c35-45e5-93da-08e6a188bcbe" manual="true" dockArea="right">
           <bo>
@@ -382,7 +446,7 @@
             <seg>feature_instance</seg>
             <seg>pedLight3</seg>
           </bo>
-          <position x="232.23567199707043" y="55.0"/>
+          <position x="232.42578887939453" y="55.0"/>
         </element>
         <element uuid="a7f2a023-a1bb-4356-9c7f-c171eb22b17a" manual="true" dockArea="right">
           <bo>
@@ -390,15 +454,15 @@
             <seg>feature_instance</seg>
             <seg>pedLight4</seg>
           </bo>
-          <position x="232.23567199707043" y="10.0"/>
+          <position x="232.42578887939453" y="10.0"/>
         </element>
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
           <seg>component_instance</seg>
           <seg>signalManager</seg>
         </bo>
-        <position x="640.0000000000001" y="232.00000000000003"/>
-        <size width="302.8098831176759" height="470.0"/>
+        <position x="640.0" y="232.0"/>
+        <size width="303.0" height="470.0"/>
       </element>
       <element uuid="e37228fb-a1d1-46bc-8f3c-7be07f5056f8" manual="true">
         <bo>
@@ -540,7 +604,7 @@
         <seg>component_instance</seg>
         <seg>controller</seg>
       </bo>
-      <position x="600.0" y="288.0"/>
+      <position x="600.0" y="468.0"/>
       <size width="1040.0" height="952.0"/>
     </element>
     <element uuid="3850c2e9-133e-45a3-a61c-e6fa45784788" manual="true">
@@ -557,8 +621,8 @@
         <seg>component_instance</seg>
         <seg>cpu</seg>
       </bo>
-      <position x="239.99999999999997" y="520.0"/>
-      <size width="134.56770706176758" height="60.0"/>
+      <position x="240.0" y="700.0"/>
+      <size width="135.0" height="60.0"/>
     </element>
     <element uuid="67ffdd5f-2cde-4075-84c4-6a328d57ba43" manual="true">
       <element uuid="477941df-0a98-422e-91f7-227c5ebc1da3" manual="true" dockArea="left">
@@ -574,10 +638,18 @@
         <seg>component_instance</seg>
         <seg>mem</seg>
       </bo>
-      <position x="229.99999999999997" y="610.0"/>
-      <size width="156.0325469970703" height="60.0"/>
+      <position x="230.0" y="790.0"/>
+      <size width="156.0" height="60.0"/>
     </element>
     <element uuid="c50685ea-ad1e-4cb1-89be-4133c8393dfb" manual="true">
+      <element uuid="f507a520-0d19-4f66-9137-b93db17bf317" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="233.46484375" y="30.0"/>
+      </element>
       <element uuid="f6642c83-4838-4de8-80de-3f50061b6d9e" manual="true" dockArea="left">
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
@@ -591,10 +663,18 @@
         <seg>component_instance</seg>
         <seg>pedLight1</seg>
       </bo>
-      <position x="2030.0" y="680.0"/>
-      <size width="263.5716018676758" height="60.0"/>
+      <position x="2030.0" y="890.0"/>
+      <size width="264.0" height="95.0"/>
     </element>
     <element uuid="503a874d-b958-43a7-9709-0f7f3a3d7ae8" manual="true">
+      <element uuid="8c6c9879-c868-4989-91f7-65d5dbfd5e30" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="233.46484375" y="40.0"/>
+      </element>
       <element uuid="14e0ca0d-a2ea-4659-b407-24dfcf24061d" manual="true" dockArea="left">
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
@@ -608,10 +688,18 @@
         <seg>component_instance</seg>
         <seg>pedLight2</seg>
       </bo>
-      <position x="2030.0" y="600.0"/>
-      <size width="263.5716018676758" height="60.0"/>
+      <position x="2030.0" y="790.0"/>
+      <size width="264.0" height="95.0"/>
     </element>
     <element uuid="8e9ed487-9f9e-45bf-a709-b551070914aa" manual="true">
+      <element uuid="7a483a4f-a3b1-4319-967e-c37081ddd40d" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="233.46484375" y="30.0"/>
+      </element>
       <element uuid="fe7fd71e-7447-4c4d-9e0d-4ee2edc81cfe" manual="true" dockArea="left">
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
@@ -625,10 +713,18 @@
         <seg>component_instance</seg>
         <seg>pedLight3</seg>
       </bo>
-      <position x="2030.0" y="520.0"/>
-      <size width="263.5716018676758" height="60.0"/>
+      <position x="2030.0" y="690.0"/>
+      <size width="264.0" height="95.0"/>
     </element>
     <element uuid="11a7b71a-68ba-45e6-b53c-597375766635" manual="true">
+      <element uuid="6ebb7c08-b0a4-4f05-9eb8-89cb1ded12ad" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position x="233.46484375" y="30.0"/>
+      </element>
       <element uuid="dca4af88-6185-42db-a7a1-6d3374235423" manual="true" dockArea="left">
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
@@ -642,8 +738,8 @@
         <seg>component_instance</seg>
         <seg>pedLight4</seg>
       </bo>
-      <position x="2030.0" y="440.0"/>
-      <size width="263.5716018676758" height="60.0"/>
+      <position x="2030.0" y="590.0"/>
+      <size width="264.0" height="95.0"/>
     </element>
     <element uuid="b78ba6e6-e2cf-45bd-a96a-28fe037ddc2f" manual="true">
       <element uuid="34ccdf70-837f-4429-b599-3ca962c20f9b" manual="true" dockArea="right">
@@ -652,7 +748,7 @@
           <seg>feature_instance</seg>
           <seg>detected</seg>
         </bo>
-        <position x="162.5872344970703" y="10.0"/>
+        <position x="162.84766006469727" y="10.0"/>
       </element>
       <element uuid="a452bb87-ee95-4041-a674-150f7161844e" manual="true" dockArea="left">
         <bo>
@@ -667,8 +763,8 @@
         <seg>component_instance</seg>
         <seg>sensor1</seg>
       </bo>
-      <position x="110.00000000000011" y="1010.0"/>
-      <size width="225.73957443237305" height="60.0"/>
+      <position x="110.0" y="1190.0"/>
+      <size width="226.0" height="60.0"/>
     </element>
     <element uuid="1e675206-5686-494a-81c0-39476b9d6310" manual="true">
       <element uuid="b01ae91e-20d4-41ba-bf49-0258f5fad7aa" manual="true" dockArea="right">
@@ -677,7 +773,7 @@
           <seg>feature_instance</seg>
           <seg>detected</seg>
         </bo>
-        <position x="162.5872344970703" y="10.0"/>
+        <position x="162.84766006469727" y="10.0"/>
       </element>
       <element uuid="b5a591ee-07a7-4fbf-b4fb-89fe6616c347" manual="true" dockArea="left">
         <bo>
@@ -692,8 +788,8 @@
         <seg>component_instance</seg>
         <seg>sensor2</seg>
       </bo>
-      <position x="110.00000000000009" y="930.0"/>
-      <size width="225.73957443237305" height="60.0"/>
+      <position x="110.0" y="1110.0"/>
+      <size width="226.0" height="60.0"/>
     </element>
     <element uuid="9557b73c-9653-4c8d-8681-e32047fb5cf8" manual="true">
       <element uuid="466b9831-14d4-411f-aea2-b8cbad69cf81" manual="true" dockArea="right">
@@ -702,7 +798,7 @@
           <seg>feature_instance</seg>
           <seg>detected</seg>
         </bo>
-        <position x="162.5872344970703" y="10.0"/>
+        <position x="162.84766006469727" y="10.0"/>
       </element>
       <element uuid="a1e07864-a657-4803-b8c5-25d6e9624e60" manual="true" dockArea="left">
         <bo>
@@ -717,8 +813,8 @@
         <seg>component_instance</seg>
         <seg>sensor3</seg>
       </bo>
-      <position x="110.00000000000011" y="850.0"/>
-      <size width="225.73957443237305" height="60.0"/>
+      <position x="110.0" y="1030.0"/>
+      <size width="226.0" height="60.0"/>
     </element>
     <element uuid="9a3e5e51-0777-4e6d-bf5f-01472ecb43e5" manual="true">
       <element uuid="e6ccd2a3-4a60-4edf-a8cc-a69f57cf123f" manual="true" dockArea="right">
@@ -727,7 +823,7 @@
           <seg>feature_instance</seg>
           <seg>detected</seg>
         </bo>
-        <position x="162.5872344970703" y="10.0"/>
+        <position x="162.84766006469727" y="10.0"/>
       </element>
       <element uuid="7bd87b15-8319-4942-877e-bf1feea471bc" manual="true" dockArea="left">
         <bo>
@@ -742,8 +838,8 @@
         <seg>component_instance</seg>
         <seg>sensor4</seg>
       </bo>
-      <position x="110.00000000000011" y="770.0"/>
-      <size width="225.73957443237305" height="60.0"/>
+      <position x="110.0" y="950.0"/>
+      <size width="226.0" height="60.0"/>
     </element>
     <element uuid="cf99d8cf-3ab1-40d0-b74c-354b0cae9d78" manual="true">
       <bo>
@@ -751,8 +847,8 @@
         <seg>component_instance</seg>
         <seg>thisBus</seg>
       </bo>
-      <position x="30.0" y="520.0"/>
-      <size width="95.72395706176758" height="110.0"/>
+      <position x="30.0" y="700.0"/>
+      <size width="96.0" height="110.0"/>
     </element>
     <element uuid="082e4564-2611-46c2-b7b6-5694442a2c44" manual="true">
       <bo>
@@ -768,6 +864,102 @@
         <seg>b2 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.mem.BA1</seg>
       </bo>
     </element>
+    <element uuid="8a0bf299-725c-49e1-9e6b-a847c7109d70" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bbz1 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.buzzer1.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="-503.0" y="-76.0"/>
+        <point x="1759.0" y="-74.0"/>
+        <point x="1761.0" y="421.9999694824219"/>
+      </bendpoints>
+    </element>
+    <element uuid="128e7904-f2c1-4891-af52-40efeb521a89" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bbz2 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.buzzer2.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="-505.0" y="-76.0"/>
+        <point x="1757.0" y="-74.0"/>
+        <point x="1759.0" y="324.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="fb2cc3fb-d216-43e4-86c0-b62f2d5901da" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bbz3 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.buzzer3.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="-505.0" y="-80.0"/>
+        <point x="1758.9998779296875" y="-76.0"/>
+        <point x="1756.9998779296875" y="226.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="9acd9bb5-a1da-46f9-80fa-864f64424b36" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bbz4 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.buzzer4.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="-507.0" y="-76.0"/>
+        <point x="1754.9998779296875" y="-76.0"/>
+        <point x="1756.9998779296875" y="132.00001525878906"/>
+      </bendpoints>
+    </element>
+    <element uuid="f285185d-4842-4363-8240-d2de5be94417" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bcl1 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.carLight1.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="-549.0" y="1408.0"/>
+        <point x="1769.0" y="1414.0"/>
+        <point x="1767.0" y="1334.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="776731d2-d5f1-4ac1-870b-ddd301243298" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bcl2 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.carLight2.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="-551.0" y="1410.0"/>
+        <point x="1771.0" y="1410.0"/>
+        <point x="1761.0" y="1220.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="fc31c550-8ada-40b5-a539-9ad16964f675" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bcl3 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.carLight3.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="-549.0" y="1410.0"/>
+        <point x="1771.0" y="1414.0"/>
+        <point x="1761.0" y="1112.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="8b5504d5-4642-40e0-82d5-12fc1c0e1cb3" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bcl4 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.carLight4.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="-549.0" y="1412.0"/>
+        <point x="1771.0" y="1412.0"/>
+        <point x="1755.0" y="1000.0000610351562"/>
+      </bendpoints>
+    </element>
     <element uuid="fd43e1f9-6a20-43fb-9433-ae0b1ad9aa82" manual="true">
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
@@ -775,7 +967,7 @@
         <seg>bp1 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.button1.eth</seg>
       </bo>
       <bendpoints>
-        <point x="-360.0" y="570.0"/>
+        <point x="-520.0" y="530.0"/>
       </bendpoints>
     </element>
     <element uuid="0e7521f5-314b-4655-a947-f7fb428f074d" manual="true">
@@ -785,7 +977,7 @@
         <seg>bp2 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.button2.eth</seg>
       </bo>
       <bendpoints>
-        <point x="-360.0" y="504.0"/>
+        <point x="-520.0" y="464.0000305175781"/>
       </bendpoints>
     </element>
     <element uuid="999c3f07-9df9-4fa7-b9b7-c820245c902f" manual="true">
@@ -795,7 +987,7 @@
         <seg>bp3 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.button3.eth</seg>
       </bo>
       <bendpoints>
-        <point x="-359.0" y="430.0"/>
+        <point x="-519.0" y="389.9999694824219"/>
       </bendpoints>
     </element>
     <element uuid="9bf6e87b-74a1-45b2-9433-dccc6c4c96d1" manual="true">
@@ -805,7 +997,55 @@
         <seg>bp4 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.button4.eth</seg>
       </bo>
       <bendpoints>
-        <point x="-358.0" y="362.0"/>
+        <point x="-518.0" y="322.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="9a388555-d0e3-4d1c-9b06-2f8374e99c93" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bpl1 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.pedLight1.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="-505.0" y="-76.0"/>
+        <point x="1761.0" y="-76.0"/>
+        <point x="1771.0" y="824.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="d6077d66-7576-4d94-9c04-e2de07e8c607" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bpl2 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.pedLight2.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="-507.0" y="-72.0"/>
+        <point x="1757.0001220703125" y="-70.0"/>
+        <point x="1769.0001220703125" y="730.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="09b309d4-7e1e-4b32-8c80-82ba481f4b2a" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bpl3 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.pedLight3.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="-509.0" y="-76.0"/>
+        <point x="1760.9998779296875" y="-74.0"/>
+        <point x="1766.9998779296875" y="622.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="46d06222-bd25-4957-9f57-466d091aee45" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>bpl4 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.pedLight4.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="-505.0" y="-76.0"/>
+        <point x="1757.0" y="-72.0"/>
+        <point x="1765.0" y="522.0"/>
       </bendpoints>
     </element>
     <element uuid="ab26d3c3-423f-4ded-8c1f-0327c45280bb" manual="true">
@@ -815,7 +1055,7 @@
         <seg>bs1 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.sensor1.eth</seg>
       </bo>
       <bendpoints>
-        <point x="-379.0" y="1142.0"/>
+        <point x="-539.0" y="1102.0"/>
       </bendpoints>
     </element>
     <element uuid="f3489487-1f3f-4e76-9b1e-e6ff8ed895d2" manual="true">
@@ -825,7 +1065,7 @@
         <seg>bs2 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.sensor2.eth</seg>
       </bo>
       <bendpoints>
-        <point x="-375.0" y="1060.0"/>
+        <point x="-535.0" y="1020.0000610351562"/>
       </bendpoints>
     </element>
     <element uuid="659a3a40-3be2-4d57-9be9-4381a9ffbb0c" manual="true">
@@ -835,7 +1075,7 @@
         <seg>bs3 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.sensor3.eth</seg>
       </bo>
       <bendpoints>
-        <point x="-374.0" y="984.0"/>
+        <point x="-534.0" y="944.0000610351562"/>
       </bendpoints>
     </element>
     <element uuid="d683a6eb-25b8-43c8-9bfb-e5d7d902ea7a" manual="true">
@@ -845,7 +1085,7 @@
         <seg>bs4 : Skrzyzowanie_impl_Instance.thisBus -> Skrzyzowanie_impl_Instance.sensor4.eth</seg>
       </bo>
       <bendpoints>
-        <point x="-372.0" y="903.0"/>
+        <point x="-532.0" y="863.0000610351562"/>
       </bendpoints>
     </element>
     <element uuid="af79d343-09ca-4e9c-85f6-17ed8e7fa289" manual="true">
@@ -967,8 +1207,8 @@
         <seg>lpb1 : Skrzyzowanie_impl_Instance.controller.pedLight1 -> Skrzyzowanie_impl_Instance.buzzer1.pedStateIn</seg>
       </bo>
       <bendpoints>
-        <point x="1076.0" y="613.0"/>
-        <point x="1085.0" y="399.0"/>
+        <point x="916.0" y="573.0"/>
+        <point x="925.0" y="358.9999694824219"/>
       </bendpoints>
     </element>
     <element uuid="05183ed1-73b3-47fd-bee2-740b009f118e" manual="true">
@@ -978,8 +1218,8 @@
         <seg>lpb2 : Skrzyzowanie_impl_Instance.controller.pedLight2 -> Skrzyzowanie_impl_Instance.buzzer2.pedStateIn</seg>
       </bo>
       <bendpoints>
-        <point x="1077.0" y="568.0"/>
-        <point x="1085.0" y="317.0"/>
+        <point x="917.0" y="528.0"/>
+        <point x="925.0" y="277.0"/>
       </bendpoints>
     </element>
     <element uuid="9f5575dc-f31a-4904-8974-45ab27fb0e16" manual="true">
@@ -989,8 +1229,8 @@
         <seg>lpb3 : Skrzyzowanie_impl_Instance.controller.pedLight3 -> Skrzyzowanie_impl_Instance.buzzer3.pedStateIn</seg>
       </bo>
       <bendpoints>
-        <point x="1082.0" y="516.0"/>
-        <point x="1086.0" y="240.0"/>
+        <point x="922.0" y="475.9984130859375"/>
+        <point x="926.0" y="200.00001525878906"/>
       </bendpoints>
     </element>
     <element uuid="45e4c2f5-82b4-4e89-83ef-d705bd6c08d3" manual="true">
@@ -1000,8 +1240,8 @@
         <seg>lpb4 : Skrzyzowanie_impl_Instance.controller.pedLight4 -> Skrzyzowanie_impl_Instance.buzzer4.pedStateIn</seg>
       </bo>
       <bendpoints>
-        <point x="1082.0" y="465.0"/>
-        <point x="1088.0" y="164.0"/>
+        <point x="922.0" y="424.9999694824219"/>
+        <point x="928.0" y="124.00000762939453"/>
       </bendpoints>
     </element>
     <element uuid="8c85d72b-9f1f-49d6-8ff7-6ee70e90ad3d" manual="true">
@@ -1121,8 +1361,8 @@
       <seg>system_instance</seg>
       <seg>/skrzyzowaniezsygnalizacja/instances/sygnalizacja_skrzyzowanie_impl_instance.aaxl2</seg>
     </bo>
-    <position x="-440.0" y="90.0"/>
-    <size width="2439.999999999999" height="1429.9999999999998"/>
+    <position x="-600.0" y="-130.0"/>
+    <size width="2500.0" height="1610.0"/>
   </element>
   <config type="structure" connectionPrimaryLabelsVisible="false">
     <enabledAadlProperties/>
