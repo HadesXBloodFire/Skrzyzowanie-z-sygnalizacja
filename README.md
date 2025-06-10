@@ -300,3 +300,7 @@ W celu zmniejszenia wagi można rozważyć zamianę sygnalizacji z żarówkowej 
 ## Diagram
 
 ![Diagram](diagrampng.png)
+
+
+## Literatura:
+https://zdmk.krakow.pl/wp-content/uploads/2019/10/Za%C5%82%C4%85cznik-nr-1-1.pdf
